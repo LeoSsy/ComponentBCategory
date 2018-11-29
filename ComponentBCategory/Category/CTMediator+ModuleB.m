@@ -6,7 +6,7 @@
 //  Copyright © 2018年 bianla. All rights reserved.
 //
 
-#import "CTMediator+ModuleA.h"
+#import "CTMediator+ModuleB.h"
 @implementation CTMediator (ModuleB)
 - (UIViewController *)ModuleB_viewControllerWithCallback:(void(^)(NSString *result))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
