@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ComponentBCategory'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = '这是业务模块A 分类组件'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ s.platform         = :ios, "8.0"
 
 s.requires_arc     = true
 
-s.source_files = "ComponentBCategory/Category/**/*.{h,m}"
+s.source_files = "ComponentBCategory/Category/*.{h,m}"
 s.dependency 'CTMediator'
 
 end
