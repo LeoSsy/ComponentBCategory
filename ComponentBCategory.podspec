@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ComponentBCategory'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = '这是业务模块A 分类组件'
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,7 @@ DESC
 s.homepage         = 'https://github.com/LeoSsy'
 s.license          = "MIT"
 s.author           = { 'jack' => '781739973@qq.com' }
-s.source           = { :git => 'https://github.com/LeoSsy/ComponentACategory.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/LeoSsy/ComponentBCategory.git', :tag => s.version.to_s }
 
 s.platform         = :ios, "8.0"
 
